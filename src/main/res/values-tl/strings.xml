@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="main_button_disable_wifi">Huwag paganahin ang WiFi</string>
-    <string name="main_button_enable_wifi">Paganahin ang WiFi</string>
-    <string name="main_label_app_description">Binibigyang-daan ka ng app na ito na paganahin at huwag paganahin ang WiFi.</string>
-    <string name="main_label_compatibility_description">Naglalaman ito ng lumang bersyon ng compatibility upang gawing posible na gumana sa wifi.</string>
-    <string name="main_label_github_description">Available ang source ng code sa GitHub, kung saan mo ida-download ang app.</string>
-</resources>
