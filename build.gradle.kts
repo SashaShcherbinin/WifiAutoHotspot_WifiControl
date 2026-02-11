@@ -1,8 +1,10 @@
+import com.android.build.api.dsl.ApplicationExtension
+import org.gradle.kotlin.dsl.configure
 import java.io.FileInputStream
 import java.util.Properties
 
 plugins {
-    id(libs.plugins.common.android.application.module)
+    id("com.android.application")
 }
 
 val localProperties = Properties().apply {
@@ -14,7 +16,7 @@ val localStorePassword: String = localProperties.getProperty("storePassword")
 val localKeyAlias: String = localProperties.getProperty("keyAlias")
 val localKeyPassword: String = localProperties.getProperty("keyPassword")
 
-android {
+extensions.configure<ApplicationExtension> {
     namespace = "wifi.control"
     //noinspection GradleDependency - we need to support older devices
     compileSdk = 28
@@ -50,9 +52,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
     }
 }
 
