@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="main_button_disable_wifi">Nonaktifkan Wi-Fi</string>
-    <string name="main_button_enable_wifi">Aktifkan Wi-Fi</string>
-    <string name="main_label_app_description">Aplikasi ini memungkinkan Anda untuk mengaktifkan dan menonaktifkan WiFi.</string>
-    <string name="main_label_compatibility_description">Ini berisi versi kompatibilitas lama untuk memungkinkan bekerja dengan wifi.</string>
-    <string name="main_label_github_description">Sumber kode tersedia di GitHub, tempat Anda mengunduh aplikasi.</string>
-</resources>

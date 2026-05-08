@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="main_button_disable_wifi">השבת את WiFi</string>
-    <string name="main_button_enable_wifi">אפשר WiFi</string>
-    <string name="main_label_app_description">אפליקציה זו מאפשרת לך להפעיל ולנטרל WiFi.</string>
-    <string name="main_label_compatibility_description">הוא מכיל גרסת תאימות ישנה כדי לאפשר עבודה עם wifi.</string>
-    <string name="main_label_github_description">מקור הקוד זמין ב-GitHub, שם אתה מוריד את האפליקציה.</string>
-</resources>
