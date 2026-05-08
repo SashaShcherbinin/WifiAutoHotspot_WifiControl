@@ -32,7 +32,7 @@ class WifiControlProvider : ContentProvider() {
             val versionCode = getAppVersionCode(context!!)
             val versionName = getAppVersionName(context!!)
             val cursor = MatrixCursor(arrayOf("version_code", "version_name"))
-            cursor.addRow(arrayOf(versionCode, versionName))
+            cursor.addRow(arrayOf<Any>(versionCode, versionName))
             return cursor
         }
         throw UnsupportedOperationException("Not yet implemented")
